@@ -1,0 +1,55 @@
+/*Color palette*/
+.white {
+    color: #FFFFFF
+}
+
+.bluegrey {
+    color: #E5E9FD
+}
+
+.pink {
+    color: #F598FF
+}
+
+.blue {
+    color: #94ABF9
+}
+
+.navy {
+    color: #171D3A
+}
+
+/*Page*/
+
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  padding: 40px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Obviously", system-ui, -apple-system, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #94ABF9, #F598FF);
+}
+
+.content {
+  padding-top: 90px;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #171D3A;
+  text-decoration: none;
+}
