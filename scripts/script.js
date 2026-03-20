@@ -8,3 +8,13 @@ toggle.addEventListener('click', () => {
 document.querySelectorAll('.nav-links a').forEach(link =>
   link.addEventListener('click', () => nav.classList.remove('show'))
 );
+
+function scrollSlider(direction) {
+  const slider = document.getElementById('charSlider');
+  const scrollAmount = slider.clientWidth / 2; 
+  
+  slider.scrollBy({
+    left: direction * scrollAmount,
+    behavior: 'smooth'
+  });
+}
