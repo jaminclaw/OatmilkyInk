@@ -23,7 +23,7 @@
 
 .layout {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
   padding: 0 50px;
   gap: 40px;
@@ -147,6 +147,13 @@ a {
   padding: 20px;
 }
 
+.gallery-VD {
+  max-width: 90vw; 
+  margin: 0 auto;
+  gap: 20px; 
+  padding: 20px;
+}
+
 .gallery-item {
   width: 100%;     
   height: auto;    
@@ -161,6 +168,7 @@ a {
 }
 
 .section-title {
+  text-align: center;
   padding: 20px;
   margin: 0;
   font-family: sans-serif;
@@ -170,6 +178,8 @@ a {
   position: relative;
   display: flex;
   align-items: center;
+  max-width: 90vw;
+  margin: 0 auto;
   padding: 0 20px 40px 20px;
 }
 
@@ -187,7 +197,7 @@ a {
 }
 
 .slider-item {
-  flex: 0 0 calc(50% - 10px); /* Shows 2 images at a time (adjust as needed) */
+  flex: 0 0 calc(50% - 10px); 
   width: 100%;
   height: auto;
   scroll-snap-align: start;
